@@ -1,0 +1,11 @@
+{
+    "replace": true,
+    "origins": [
+      "commandorigins:merchant",
+      "commandorigins:miner",
+      "commandorigins:sailor",
+      "commandorigins:cook",
+      "commandorigins:farmer",
+      "origins-classes:nitwit"
+    ]
+}

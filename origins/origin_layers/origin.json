@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "origins": [
+    "commandorigins:fairy",
+    "commandorigins:dwarf",
+    "commandorigins:elf",
+    "commandorigins:mermaid",
+    "commandorigins:goblin",
+    "commandorigins:orc",
+    "commandorigins:giant",
+    "commandorigins:gnome",
+    "commandorigins:dragon",
+    "commandorigins:florrow",
+    "commandorigins:goat",
+    "commandorigins:griffin",
+    "commandorigins:sentinel",
+    "commandorigins:werewolf",
+    "commandorigins:goofy_goober"
+  ]
+}
