@@ -1,0 +1,17 @@
+{
+	"powers": [
+		"commandorigins:elf_bow",
+		"commandorigins:elf_jump",
+		"commandorigins:glow_toggle",
+		"commandorigins:elf_glow_2.0",
+		"commandorigins:elf_size",
+		"commandorigins:elf_frail",
+		"commandorigins:elf_damage",
+		"commandorigins:no_shield_elf"
+	],
+	"icon": "minecraft:dark_oak_leaves",
+	"order": 6,
+	"impact": 2,
+	"name": "Elf",
+	"description": "Elves are mysterious creatures that live in the high trees of the forest. They are very loyal to their home."
+}

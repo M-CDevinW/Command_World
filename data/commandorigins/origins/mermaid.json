@@ -1,0 +1,20 @@
+{
+	"powers": [
+		"origins:water_breathing",
+		"commandorigins:water_vision",
+		"commandorigins:aqua_affinity",
+		"commandorigins:swim_speed",
+		"origins:like_water",
+		"commandorigins:kelp_food_boost",
+		"commandorigins:turtle_swim_boost",
+		"commandorigins:air_from_potions",
+		"origins:conduit_power_on_land",
+		"commandorigins:dolphin_immune",
+		"commandorigins:aquatic"
+	],
+	"icon": "minecraft:conduit",
+	"order": 12,
+	"impact": 3,
+	"name": "Merfolk",
+	"description": "Merfolk are majestic creatures that thrive in the water. Some rumors talk of evil ones that lure travelers to their doom."
+}

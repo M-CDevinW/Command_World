@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"origins-classes:better_crafted_food",
+		"commandorigins:cook_baker"
+	],
+	"icon": "minecraft:bread",
+	"order": 4,
+	"impact": 0,
+	"name": "Cook",
+    "description": "Cooks excel at cooking various meals and snacks."
+}

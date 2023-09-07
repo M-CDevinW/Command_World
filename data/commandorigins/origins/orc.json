@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"commandorigins:orc_damage",
+		"commandorigins:orc_hp",
+		"commandorigins:orc_size",
+		"commandorigins:no_shield_orc",
+		"commandorigins:orc_bow"
+	],
+	"icon": "minecraft:iron_axe",
+	"order": 2,
+	"impact": 1,
+	"name": "Orc",
+	"description": "Orcs are brutish, powerful creatures that excel at melee combat. They are the footsoldiers of the monster army."
+}

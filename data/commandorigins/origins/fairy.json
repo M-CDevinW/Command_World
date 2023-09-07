@@ -1,0 +1,19 @@
+{
+	"powers": [
+		"commandorigins:permanent_elytra",
+		"commandorigins:fairy_healing",
+		"commandorigins:fairy_exhaust",
+		"commandorigins:launch_into_air",
+		"commandorigins:fairy_size",
+		"commandorigins:fairy_frail",
+		"commandorigins:rose_weak_body",
+		"commandorigins:fairy_legs_diamond",
+		"commandorigins:fairy_legs_netherite",
+		"commandorigins:fairy_legs_gilded"
+	],
+	"icon": "minecraft:red_tulip",
+	"order": 7,
+	"impact": 2,
+	"name": "Fairy",
+	"description": "Fairies are mystical beings that are known to assist travelers on their adventures. Most fairies are quite kind and peaceful."
+}

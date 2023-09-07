@@ -1,0 +1,17 @@
+{
+	"powers": [
+		"commandorigins:grow_area",
+		"commandorigins:gnome_attack_speed",
+		"commandorigins:mount",
+		"commandorigins:gnome_size",
+		"commandorigins:gnome_range",
+		"commandorigins:goblin_frail",
+		"commandorigins:gnome_damage_taken",
+		"commandorigins:gnome_damage"
+	],
+	"icon": "minecraft:red_mushroom",
+	"order": 10,
+	"impact": 2,
+	"name": "Gnome",
+	"description": "Gnomes are extremely small creatures that live in the forests. They are known to be very good at gardening."
+}

@@ -1,0 +1,16 @@
+{
+	"powers": [
+		"commandorigins:giant_size",
+		"commandorigins:giant_size_good",
+		"commandorigins:giant_health",
+		"commandorigins:giant_defense",
+		"commandorigins:giant_kb",
+		"commandorigins:giant_exhaust",
+		"commandorigins:giant_sink"
+	],
+	"icon": "minecraft:iron_block",	
+	"order": 11,
+	"impact": 3,
+	"name": "Giant",
+	"description": "Giants are enourmous creatures of immense strength. Although they seem dangerous, most Giants are very friendly."
+}

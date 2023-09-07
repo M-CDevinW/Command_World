@@ -1,0 +1,16 @@
+{
+	"powers": [
+		"commandorigins:permanent_elytra",
+		"commandorigins:griffin_launch_into_air",
+		"commandorigins:mountable",
+		"commandorigins:griffin_size",
+		"commandorigins:fresh_air",
+		"commandorigins:carnivore",
+		"commandorigins:1.5_fire"
+	],
+	"icon": "minecraft:feather",
+	"order": 3,
+	"impact": 1,
+	"name": "Griffin",
+	"description": "Griffins are experienced hunters that hail from the sky. They are extremely loyal to one another."
+}

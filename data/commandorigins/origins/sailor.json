@@ -1,0 +1,12 @@
+{
+	"powers": [
+		"commandorigins:sailor_sailing",
+        "commandorigins:sailor_base_sailing",
+		"commandorigins:sailor_double_sails"
+	],
+	"icon": "smallships:sail",
+	"order": 6,
+	"impact": 0,
+	"name": "Sailor",
+    "description": "Sailors are experts of navigating and conquering the seas."
+}

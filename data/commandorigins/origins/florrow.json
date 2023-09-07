@@ -1,0 +1,21 @@
+{
+	"powers": [
+		"commandorigins:florrow_scales",
+		"commandorigins:dwarf_vision",
+		"commandorigins:no_footsteps",
+		"commandorigins:no_fall_sound",
+		"commandorigins:slow_falling",
+		"commandorigins:florrow_wood",
+		"commandorigins:florrow_spawning",
+		"commandorigins:florrow_size",
+		"commandorigins:florrow_spores",
+		"commandorigins:florrow_water",
+		"commandorigins:florrow_thirsty",
+		"commandorigins:florrow_resource"
+	],
+	"icon": "minecraft:moss_block",
+	"order": 8,
+	"impact": 2,
+	"name": "Weeping Florrow",
+	"description": "Weeping Florrow are plants from deep underground that have enough sentience to be considered completely alive. Despite being plants, they do not require sunlight to survive."
+}

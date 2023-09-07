@@ -1,0 +1,25 @@
+{
+	"powers": [
+		"commandorigins:permanent_elytra",
+		"commandorigins:elytra_speed",
+		"commandorigins:elytra_boost",
+		"commandorigins:orc_damage",
+		"commandorigins:tough",
+		"commandorigins:fire_immune",
+		"commandorigins:dragon_size",
+		"commandorigins:arrow_slipping",
+		"commandorigins:sensitive_skin",
+		"commandorigins:nether_spawn",
+		"commandorigins:water_hurt",
+		"commandorigins:bed_explode",
+		"commandorigins:dragon_restrict_specific",
+		"commandorigins:dragon_restrict_specific_2",
+		"commandorigins:dragon_restrict_specific_3",
+		"commandorigins:dragon_restrict_specific_4"
+	],
+	"icon": "minecraft:dragon_breath",
+	"order": 9,
+	"impact": 3,
+	"name": "Dragon",
+	"description": "Dragons are ferocious creatures that can fly and breathe fire. They hail from the depths of the underworld."
+}

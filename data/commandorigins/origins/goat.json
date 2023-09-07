@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"commandorigins:1.5_fire",
+		"commandorigins:goat_size",
+		"commandorigins:goat_frail",
+		"commandorigins:goat_freeze",
+		"commandorigins:goat_hot",
+		"commandorigins:goat_horn"
+	],
+	"icon": "minecraft:goat_horn",
+	"order": 5,
+	"impact": 2,
+	"name": "Goatkin",
+	"description": "Goatkin are part Human, part Goat. They tend to live in cold, frigid areas such as mountians."
+}

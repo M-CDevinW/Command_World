@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"origins-classes:no_mining_exhaustion",
+        "commandorigins:miner_mining_speed"
+	],
+	"icon": "minecraft:stone",
+	"order": 2,
+	"impact": 0,
+	"name": "Miner",
+    "description": "Miners excell at obtaining precious metals and gems from underground."
+}

@@ -1,0 +1,17 @@
+{
+	"powers": [
+		"commandorigins:augment",
+		"commandorigins:iron_regen",
+		"commandorigins:sentinel_food",
+		"commandorigins:sentinel_healing",
+		"commandorigins:sentinel_armor",
+		"commandorigins:sink",
+		"commandorigins:sentinel_fire",
+		"commandorigins:sentinel_netherite_fire"
+	],
+	"icon": "minecraft:iron_chestplate",
+	"order": 13,
+	"impact": 3,
+	"name": "Dark Sentinel",
+	"description": "Sentinels are extremely rare creatures that are barely considered alive. They were built many years ago by humans as a form of war machine."
+}

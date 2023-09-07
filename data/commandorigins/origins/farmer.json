@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"origins-classes:better_bone_meal",
+        "origins-classes:more_crop_drops"
+	],
+	"icon": "minecraft:wheat",
+	"order": 3,
+	"impact": 0,
+	"name": "Farmer",
+    "description": "Farmers are able to plant and harvest crops much better than any other."
+}

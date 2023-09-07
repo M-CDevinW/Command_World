@@ -1,0 +1,22 @@
+{
+	"powers": [
+		"commandorigins:dwarf_mining",
+		"commandorigins:dwarf_kb_tier1_head",
+		"commandorigins:dwarf_kb_tier1_chest",
+		"commandorigins:dwarf_kb_tier1_legs",
+		"commandorigins:dwarf_kb_tier1_feet",
+		"commandorigins:dwarf_kb_tier2_head",
+		"commandorigins:dwarf_kb_tier2_chest",
+		"commandorigins:dwarf_kb_tier2_legs",
+		"commandorigins:dwarf_kb_tier2_feet",
+		"commandorigins:dwarf_vision",
+		"commandorigins:dwarf_size",
+		"commandorigins:dwarf_speed",
+		"commandorigins:dwarf_bow"
+	],
+	"icon": "minecraft:coal_ore",
+	"order": 1,
+	"impact": 1,
+	"name": "Dwarf",
+	"description": "Dwarves are slightly smaller creatures that are very efficient in the mines. Some are even powerful warriors."
+}

@@ -1,0 +1,10 @@
+{
+	"powers": [
+	],
+	"icon": "minecraft:air",
+	"order": 100,
+	"impact": 0,
+	"name": "Test",
+	"description": "Origin for testing fun new abilities, new addons, and more!",
+	"unchoosable": false
+}

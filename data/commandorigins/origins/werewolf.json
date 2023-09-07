@@ -1,0 +1,23 @@
+{
+	"powers": [
+		"commandorigins:side_step",
+		"commandorigins:werewolf_size",
+		"commandorigins:werewolf_attributes",
+		"commandorigins:werewolf_vision",
+		"origins:carnivore",
+		"commandorigins:werewolf_hungry",
+		"commandorigins:werewolf_climbing",
+		"commandorigins:werewolf_armor_restrict",
+		"commandorigins:werewolf_harvest",
+		"commandorigins:werewolf_damage_taken",
+		"commandorigins:werewolf_effect_duration",
+		"commandorigins:werewolf_antiheal_iron",
+		"commandorigins:werewolf_form_prevent"
+	],
+	"icon": "minecraft:beef",
+	"order": 4.5,
+	"impact": 2,
+	"name": "Werewolf",
+	"description": "You are a Human in the day, and a vicious Wolf in the night, both forms boasting amazing abilities.",
+	"unchoosable": false
+}

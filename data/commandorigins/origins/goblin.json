@@ -1,0 +1,20 @@
+{
+	"powers": [
+		"commandorigins:goblin_speed",
+		"commandorigins:no_footsteps",
+		"commandorigins:no_fall_sound",
+		"commandorigins:goblin_jump",
+		"commandorigins:goblin_resource",
+		"commandorigins:goblin_active",
+		"commandorigins:goblin_size",
+		"commandorigins:goblin_frail",
+		"commandorigins:goblin_damage",
+		"commandorigins:netherite_restrict",
+		"commandorigins:gilded_restrict"
+	],
+	"icon": "minecraft:gold_block",
+	"order": 4,
+	"impact": 1,
+	"name": "Goblin",
+	"description": "Goblins are short, quick creatures that love stealing treasure. They are masters of stealth."
+}
