@@ -1,0 +1,12 @@
+{
+	"type": "origins:multiple",
+	"hunger": {
+		"type": "origins:modify_exhaustion",
+		"modifier": {
+			"operation": "multiply_base",
+			"value": -0.75
+		}
+	},
+	"name": "Barely Alive",
+	"description": "Your body only needs to eat 25% the amount of food, but only recieves 25% the healing from natural and magical sources."
+}

@@ -1,0 +1,34 @@
+{
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+		"type": "origins:and",
+		"actions": [
+		{
+			"type": "origins:execute_command",
+			"command": "scale set pehkui:height 1.1 @s"
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "scale set pehkui:width 1.1 @s"
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "scale set pehkui:drops 1.1 @s"
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "scale set pehkui:projectiles 1.1 @s"
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "scale persist set true @s"
+		}
+		]
+    },
+    "entity_action_lost": {
+        "type": "origins:execute_command",
+        "command": "scale reset @s"
+    },
+	"name": "Large Stature",
+	"description": "You are naturally larger compared to a normal human."
+}

@@ -1,0 +1,25 @@
+{
+	"name": "Weak Body,",
+	"description": "Your smaller size restricts you from wearing armor stronger than rose gold.",
+    "type": "origins:restrict_armor",
+    "head": {
+        "type": "origins:armor_value",
+        "comparison": ">",
+        "compare_to": 2
+    },
+    "chest": {
+        "type": "origins:armor_value",
+        "comparison": ">",
+        "compare_to": 7
+    },
+    "legs": {
+        "type": "origins:armor_value",
+        "comparison": ">",
+        "compare_to": 6
+    },
+    "feet": {
+        "type": "origins:armor_value",
+        "comparison": ">",
+        "compare_to": 2
+    }
+}

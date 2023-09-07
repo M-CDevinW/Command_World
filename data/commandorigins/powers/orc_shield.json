@@ -1,0 +1,8 @@
+{
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:shield"
+    },
+    "name": "Brutish Mind",
+    "description": "Your berserker like tendencies restrict you from using a shield."
+}

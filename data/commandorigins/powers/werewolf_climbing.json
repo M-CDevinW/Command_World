@@ -1,0 +1,29 @@
+{
+    "type": "origins:climbing",
+    "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:daytime",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:collided_horizontally"
+                }
+            ]
+        },
+    "hold_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:daytime",
+                    "inverted": true
+                },
+                { 
+                    "type": "origins:collided_horizontally"
+                }
+            ]
+        },
+    "name": "Natural Weapons",
+    "description": "Your powerful claws give you significantly increased melee damage, significantly increased mining speed, and the ability to climb walls."
+}

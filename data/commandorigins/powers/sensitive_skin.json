@@ -1,0 +1,25 @@
+{
+    "type": "origins:restrict_armor",
+    "head": {
+        "type": "origins:armor_value",
+        "comparison": "<",
+        "compare_to": 2
+    },
+    "chest": {
+        "type": "origins:armor_value",
+        "comparison": "<",
+        "compare_to": 7
+    },
+    "legs": {
+        "type": "origins:armor_value",
+        "comparison": "<",
+        "compare_to": 6
+    },
+    "feet": {
+        "type": "origins:armor_value",
+        "comparison": "<",
+        "compare_to": 2
+    },
+    "name": "Burning Skin",
+    "description": "Your skin is so hot it would melt any armor weaker than rose gold, meaning you can't wear it."
+}

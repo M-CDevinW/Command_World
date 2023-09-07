@@ -1,0 +1,77 @@
+{
+    "type": "origins:multiple",
+    "head": {
+        "type": "origins:modify_swim_speed",
+        "modifier": {
+          "name": "Additional swim speed",
+          "value": 0.10,
+          "operation": "multiply_base"
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "head",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "minecraft:turtle_helmet"
+                }
+            }
+        }
+    },
+    "chest": {
+        "type": "origins:modify_swim_speed",
+        "modifier": {
+          "name": "Additional swim speed",
+          "value": 0.10,
+          "operation": "multiply_base"
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "chest",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "consistency_plus:turtle_chestplate"
+                }
+            }
+        }
+    },
+    "legs": {
+        "type": "origins:modify_swim_speed",
+        "modifier": {
+          "name": "Additional swim speed",
+          "value": 0.10,
+          "operation": "multiply_base"
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "legs",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "consistency_plus:turtle_leggings"
+                }
+            }
+        }
+    },
+    "feet": {
+        "type": "origins:modify_swim_speed",
+        "modifier": {
+          "name": "Additional swim speed",
+          "value": 0.10,
+          "operation": "multiply_base"
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "feet",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "consistency_plus:turtle_boots"
+                }
+            }
+        }
+    },
+    "name": "Masters of the Seas",
+    "description": "Wearing pieces of turtle armor increases your swim speed."
+}

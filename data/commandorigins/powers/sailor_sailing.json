@@ -1,0 +1,10 @@
+{
+    "type": "origins:modify_status_effect_amplifier",
+    "status_effect": "extraalchemy:sails",
+    "modifier": {
+        "operation": "add_base_early",
+        "value": 1
+    },
+    "name": "Master Sailor",
+    "description": "Your permanently have Sailing level 2, and get Sailing level 3 from drinking a level 2 potion."
+}

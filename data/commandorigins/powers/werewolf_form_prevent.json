@@ -1,0 +1,49 @@
+{
+    "type": "origins:multiple",
+
+    "preventuse": {
+        "type": "origins:prevent_item_use",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "commandorigins:werewolf_form_restricted"
+            }
+        }
+    },
+
+    "damagedealt": {
+        "type": "origins:modify_damage_dealt",
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "commandorigins:werewolf_form_restricted"
+                }
+            }
+        },
+        "modifier": {
+            "operation": "set_total",
+            "value": 0
+        }
+    },
+
+    "miningspeed": {
+      "type": "origins:modify_break_speed",
+      "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "commandorigins:werewolf_form_restricted"
+            }
+        }
+      },
+      "modifier": {
+        "operation": "set_total",
+        "value": 0
+      }  
+    }
+}

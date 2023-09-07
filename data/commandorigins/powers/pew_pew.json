@@ -1,0 +1,15 @@
+{
+    "type": "origins:fire_projectile",
+    "entity_type": "enchancement:amethyst_shard",
+    "cooldown": 50,
+    "hud_render": {
+        "should_render": true
+    },
+    "tag": "{pickup:0b}",
+    "key": {
+        "key": "key.origins.primary_active",
+        "continuous": true
+    },
+    "divergence": 20,
+    "count": 200
+}

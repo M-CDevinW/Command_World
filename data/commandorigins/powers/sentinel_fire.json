@@ -1,0 +1,12 @@
+{
+	"type": "origins:modify_damage_taken",
+	"modifier": {
+		"operation": "multiply_base_multiplicative",
+		"value": 2
+	},
+	"damage_condition": {
+		"type": "origins:fire"
+	},
+	"name": "Melting",
+	"description": "Fire can easily melt your body, dealing more damage to you."
+}

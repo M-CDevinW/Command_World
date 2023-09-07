@@ -1,0 +1,188 @@
+{
+	"type": "origins:multiple",
+
+	"time": {
+	"type": "origins:action_over_time",
+    "falling_action": {
+		"type": "origins:and",
+		"actions": [
+		{
+			"type": "origins:execute_command",
+			"command": "scale set pehkui:height 1.75 @s"
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "scale set pehkui:width 1.75 @s"
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "scale set pehkui:drops 1.75 @s"
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "scale set pehkui:projectiles 1.75 @s"
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "scale set pehkui:mining_speed 5 @s"
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "scale set pehkui:motion 2 @s"
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "scale set pehkui:jump_height 1.25 @s"
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "scale set pehkui:falling 0.5 @s"
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "scale persist set true @s"
+		}
+		]
+    },
+    "rising_action": {
+		"type": "origins:and",
+		"actions": [
+		{
+			"type": "origins:execute_command",
+			"command": "scale set pehkui:height 1 @s"
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "scale set pehkui:width 1 @s"
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "scale set pehkui:drops 1 @s"
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "scale set pehkui:jump_height 1 @s"
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "scale set pehkui:projectiles 1 @s"
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "scale set pehkui:mining_speed 1 @s"
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "scale set pehkui:motion 1 @s"
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "scale set pehkui:falling 1 @s"
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "scale persist set true @s"
+		}
+		]
+    },
+    "interval": 20,
+    "condition": {
+        "type": "origins:daytime"
+    }
+	},
+
+	"originswitch": {
+		"type": "origins:action_on_callback",
+		"entity_action_lost": {
+			"type": "origins:and",
+			"actions": [
+			{
+				"type": "origins:execute_command",
+				"command": "scale set pehkui:height 1 @s"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "scale set pehkui:width 1 @s"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "scale set pehkui:drops 1 @s"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "scale set pehkui:jump_height 1 @s"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "scale set pehkui:projectiles 1 @s"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "scale set pehkui:mining_speed 1 @s"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "scale set pehkui:motion 1 @s"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "scale set pehkui:falling 1 @s"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "scale persist set true @s"
+			}
+			]
+		},
+    	"entity_action_chosen": {
+			"type": "origins:if_else",
+			"condition": {
+				"type": "origins:daytime",
+				"inverted": true
+			},
+			"if_action":{
+				"type": "origins:and",
+				"actions": [
+					{
+						"type": "origins:execute_command",
+						"command": "scale set pehkui:height 1.75 @s"
+					},
+					{
+						"type": "origins:execute_command",
+						"command": "scale set pehkui:width 1.75 @s"
+					},
+					{
+						"type": "origins:execute_command",
+						"command": "scale set pehkui:drops 1.75 @s"
+					},
+					{
+						"type": "origins:execute_command",
+						"command": "scale set pehkui:projectiles 1.75 @s"
+					},
+					{
+						"type": "origins:execute_command",
+						"command": "scale set pehkui:mining_speed 5 @s"
+					},
+					{
+						"type": "origins:execute_command",
+						"command": "scale set pehkui:motion 2 @s"
+					},
+					{
+						"type": "origins:execute_command",
+						"command": "scale set pehkui:jump_height 1.25 @s"
+					},
+					{
+						"type": "origins:execute_command",
+						"command": "scale set pehkui:falling 0.5 @s"
+					},
+					{
+						"type": "origins:execute_command",
+						"command": "scale persist set true @s"
+					}
+			]
+		}
+    	}
+	},
+	"name": "Werewolf Stance",
+	"description": "Your Werewolf form is far larger than your human form, making you significantly larger than a human. You also require significantly more food."
+}

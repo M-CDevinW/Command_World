@@ -1,0 +1,25 @@
+{
+    "type": "origins:modify_status_effect_duration",
+    "status_effects": [
+        "cenchants:antiheal",
+        "cenchants:mark",
+        "ecologics:slippery",
+        "extraalchemy:combustion",
+        "minecraft:bad_omen",
+        "minecraft:blindness",
+        "minecraft:darkness",
+        "minecraft:hunger",
+        "minecraft:levitation",
+        "minecraft:mining_fatigue",
+        "minecraft:nausea",
+        "minecraft:poison",
+        "minecraft:slowness",
+        "minecraft:unluck",
+        "minecraft:weakness",
+        "minecraft:wither"
+    ],
+    "modifier": {
+        "operation": "multiply_base_multiplicative",
+        "value": 1
+    }
+}

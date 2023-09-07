@@ -1,0 +1,5 @@
+{
+    "type": "origins:prevent_sleep",
+    "name": "Nocturnal",
+    "description": "You are completely unable to sleep."
+}

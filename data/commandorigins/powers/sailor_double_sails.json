@@ -1,0 +1,10 @@
+{
+    "type": "origins:modify_crafting",
+    "recipe": "smallships:sail",
+    "result": {
+        "item": "smallships:sail",
+        "amount": 2
+        },
+    "name": "Shipbuilder",
+    "description": "You craft 2 sails per batch instead of 1."
+}
