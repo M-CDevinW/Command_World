@@ -1,0 +1,29 @@
+{
+    "name": "Rideable",
+    "description": "Other players can ride you for travelling.",
+    "type": "origins:action_on_being_used",
+    "bientity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:mount"
+            },
+            {
+                "type": "origins:tame"
+            }
+        ]
+    },
+    "bientity_condition": {
+        "type": "origins:distance",
+        "comparison": "<=",
+        "compare_to": 3
+    },
+    "item_condition": {
+        "type": "origins:empty"
+    },
+    "hands": [
+        "main_hand"
+    ],
+    "action_result": "success",
+    "priority": 0
+}

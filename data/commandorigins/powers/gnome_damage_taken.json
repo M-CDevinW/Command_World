@@ -1,0 +1,9 @@
+{
+    "type": "origins:modify_damage_taken",
+    "modifier": {
+        "operation": "multiply_total",
+        "value": 0.25
+    },
+	"name": "Frail",
+	"description": "Your small body causes you to take more damage than the average human."
+}

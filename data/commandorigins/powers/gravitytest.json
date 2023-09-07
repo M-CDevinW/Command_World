@@ -1,0 +1,24 @@
+{
+    "type": "origins:multiple",
+
+    "falling": {
+        "type": "origins:modify_falling",
+        "velocity": 0,
+        "take_fall_damage": false,
+        "condition": {
+            "type": "origins:sneaking",
+            "inverted": true
+        }
+    },
+
+    "air": {
+        "type": "origins:modify_air_speed",
+        "modifier": {
+            "operation":"multiply_base",
+            "value": 2
+        }
+    },
+
+    "name": "hoverrrrrr",
+    "description": "This was the world pre-newton. 2"
+}

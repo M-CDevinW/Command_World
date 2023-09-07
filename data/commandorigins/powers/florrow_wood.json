@@ -1,0 +1,18 @@
+{
+    "type": "origins:recipe",
+    "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "id": "commandorigins:moss_to_azalea",
+        "ingredients": [
+            {
+                "item": "minecraft:moss_block"
+            }
+        ],
+        "result": {
+            "item": "ecologics:azalea_planks",
+            "count": 2
+        }
+    },
+    "name": "Natural Manipulation",
+    "description": "You can turn blocks of moss into useable planks of wood."
+}

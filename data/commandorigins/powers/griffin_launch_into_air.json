@@ -1,0 +1,16 @@
+{
+  "type": "origins:launch",
+  "cooldown": 1200,
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/resource_bar.png",
+    "bar_index": 4
+  },
+  "sound": "minecraft:entity.parrot.fly",
+  "speed": 5,
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": true
+  },
+  "name": "Updraft",
+  "description": "You can use your wings to create an extremely powerful updraft to launch yourself into the air on a long cooldown."
+}

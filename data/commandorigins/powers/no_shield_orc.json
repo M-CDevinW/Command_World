@@ -1,0 +1,11 @@
+{
+  "type": "origins:prevent_item_use",
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "tag": "origins:shields"
+    }
+  },
+  "name": "Brutish Tendencies",
+  "description": "Your recklessness and need to kill restricts the use of a shield."
+}

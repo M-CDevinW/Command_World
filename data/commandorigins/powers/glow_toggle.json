@@ -1,0 +1,18 @@
+{
+    "active_by_default": false,
+    "type": "origins:toggle",
+    "key": {
+        "key": "key.origins.primary_active",
+        "continuous": false
+    },
+    "retain_state": false,
+    "name": "Eye of the Hunter",
+    "description": "You can toggle the ability to see enemies through walls by pressing your active ability key.",
+	"badges": [
+		{
+			"type": "origins:tooltip",
+			"sprite": "origins:textures/gui/badge/star.png",
+			"text": ["Colors are in 25% intervals of max HP."]
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+    "type": "origins:modify_healing",
+    "modifier": {
+        "operation": "multiply_total",
+        "value": 0.5
+    },
+    "name": "Mystical Nature",
+    "description": "Your mystical connection to mother nature gives you increased healing from all sources."
+}

@@ -1,0 +1,20 @@
+{
+    "type": "origins:action_on_block_use",
+    "block_action": {
+        "type": "origins:explode",
+        "power": 10,
+        "destruction_type": "destroy",
+        "damage_self": true,
+        "create_fire": true 
+    },  
+    "block_condition": {
+        "type": "origins:in_tag",
+        "tag": "minecraft:beds"
+    },
+    "condition": {
+        "type": "origins:dimension",
+        "dimension": "minecraft:overworld"
+    },
+    "name": "Fire Power",
+    "description": "Attempting to sleep in a bed while in the overworld will cause it to explode, similar to what happens in the nether or end."
+}

@@ -1,0 +1,12 @@
+{
+	"type": "origins:modify_damage_taken",
+	"modifier": {
+		"operation": "multiply_total",
+		"value": 0.5
+	},
+	"damage_condition": {
+		"type": "origins:fire"
+	},
+	"name": "Heavy Coat",
+	"description": "Your natural coat makes you more vulnerable to fire damage."
+}

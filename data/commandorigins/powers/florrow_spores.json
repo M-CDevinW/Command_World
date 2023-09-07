@@ -1,0 +1,7 @@
+{
+    "type": "origins:particle",
+    "particle": "minecraft:spore_blossom_air",
+    "frequency": 4,
+    "name": "Spores",
+    "description": "You emit spore particles around you."
+}

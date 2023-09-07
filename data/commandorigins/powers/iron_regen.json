@@ -1,0 +1,242 @@
+{
+	"type": "origins:multiple",
+	"cooldown": {
+		"type": "origins:cooldown",
+		"cooldown": 200
+	},
+	"heal": {
+		"type": "origins:active_self",
+		"entity_action": {
+			"type": "origins:if_else_list",
+			"actions": [
+			{
+				"condition": {
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:iron_ingot"
+						}
+					}
+				},
+				"action": {
+					"type": "origins:and",
+					"actions": [
+					{
+						"type": "origins:equipped_item_action",
+						"equipment_slot": "mainhand",
+						"action": {
+							"type": "origins:consume",
+							"amount": 1
+						}
+					},
+					{
+						"type": "origins:heal",
+						"amount": 12
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 3,
+						"action": {
+							"type": "origins:heal",
+							"amount": 8
+						}
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 5,
+						"action": {
+							"type": "origins:heal",
+							"amount": 4
+						}
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 7,
+						"action": {
+							"type": "origins:heal",
+							"amount": 4
+						}
+					},
+					{
+						"type": "origins:play_sound",
+						"sound": "minecraft:block.anvil.use",
+						"pitch": 0.8,
+						"volume": 0.5
+					}
+					]
+				}
+			},
+			{
+				"condition": {
+					"type": "origins:equipped_item",
+					"equipment_slot": "offhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:iron_ingot"
+						}
+					}
+				},
+				"action": {
+					"type": "origins:and",
+					"actions": [
+					{
+						"type": "origins:equipped_item_action",
+						"equipment_slot": "offhand",
+						"action": {
+							"type": "origins:consume",
+							"amount": 1
+						}
+					},
+					{
+						"type": "origins:heal",
+						"amount": 12
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 3,
+						"action": {
+							"type": "origins:heal",
+							"amount": 8
+						}
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 5,
+						"action": {
+							"type": "origins:heal",
+							"amount": 4
+						}
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 7,
+						"action": {
+							"type": "origins:heal",
+							"amount": 4
+						}
+					},
+					{
+						"type": "origins:play_sound",
+						"sound": "minecraft:block.anvil.use",
+						"pitch": 0.8,
+						"volume": 0.5
+					}
+					]
+				}
+			},
+			{
+				"condition": {
+					"type": "origins:equipped_item",
+					"equipment_slot": "mainhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:iron_nugget"
+						}
+					}
+				},
+				"action": {
+					"type": "origins:and",
+					"actions": [
+					{
+						"type": "origins:equipped_item_action",
+						"equipment_slot": "mainhand",
+						"action": {
+							"type": "origins:consume",
+							"amount": 1
+						}
+					},
+					{
+						"type": "origins:heal",
+						"amount": 8
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 1,
+						"action": {
+							"type": "origins:heal",
+							"amount": 4
+						}
+					},
+					{
+						"type": "origins:play_sound",
+						"sound": "minecraft:block.anvil.use",
+						"pitch": 1.5,
+						"volume": 0.5
+					}
+					]
+				}
+			},
+			{
+				"condition": {
+					"type": "origins:equipped_item",
+					"equipment_slot": "offhand",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:iron_nugget"
+						}
+					}
+				},
+				"action": {
+					"type": "origins:and",
+					"actions": [
+					{
+						"type": "origins:equipped_item_action",
+						"equipment_slot": "offhand",
+						"action": {
+							"type": "origins:consume",
+							"amount": 1
+						}
+					},
+					{
+						"type": "origins:heal",
+						"amount": 8
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 1,
+						"action": {
+							"type": "origins:heal",
+							"amount": 4
+						}
+					},
+					{
+						"type": "origins:play_sound",
+						"sound": "minecraft:block.anvil.use",
+						"pitch": 1.5,
+						"volume": 0.5
+					}
+					]
+				}
+			}
+			]
+		},
+		"cooldown": 200,
+		"hud_render": {
+			"should_render": true,
+			"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+			"bar_index": 5
+		},
+		"key": {
+			"key": "key.origins.primary_active"
+		},
+		"condition": {
+			"type": "origins:relative_health",
+			"comparison": "==",
+			"compare_to": 1,
+			"inverted": true
+		}
+	},
+	"name": "Iron Body",
+	"description": "You can heal your wounds by consuming Iron Ingots or Nuggets.",
+	"badges": [
+	{
+		"sprite": "origins:textures/gui/badge/active.png",
+		"text": "Active ability, use with %s while holding Iron Ingots or Nuggets in your hands."
+	}
+	]
+}

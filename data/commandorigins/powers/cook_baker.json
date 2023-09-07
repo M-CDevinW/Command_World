@@ -1,0 +1,21 @@
+{
+    "type": "origins:recipe",
+    "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "id": "commandorigins:baker_toast",
+        "pattern": [
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:wheat"
+            }
+        },
+        "result": {
+            "item": "croptopia:toast",
+            "amount": 2
+        }
+    },
+    "name": "Sandwhich Connoisseur",
+    "description": "When crafting bread, you can optionally craft toast instead."
+}

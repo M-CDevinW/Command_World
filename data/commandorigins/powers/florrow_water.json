@@ -1,0 +1,108 @@
+{
+    "type": "origins:multiple",
+    "regen": {
+        "type": "origins:modify_healing",
+        "modifier": {
+            "operation": "multiply_total",
+            "value": 1
+        },
+        "condition": {
+            "type": "origins:submerged_in",
+            "fluid": "minecraft:water"
+        }
+    },
+    "drink": {
+        "type": "origins:action_on_item_use",
+        "entity_action": {
+            "type": "origins:feed",
+            "food": 4.0,
+            "saturation": 0.75
+        },
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:potion"
+            }
+        }
+    },
+    "feed": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:feed",
+            "food": 1.0,
+            "saturation": 0.5
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:submerged_in",
+            "fluid": "minecraft:water"
+        }
+    },
+    "carn": {
+        "type": "origins:prevent_item_use",
+        "item_condition": {
+          "type": "origins:and",
+          "conditions": [
+            {
+              "type": "origins:or",
+              "conditions": [
+                {
+                  "type": "origins:ingredient",
+                  "ingredient": {
+                    "tag": "origins:meat"
+                  }
+                },
+                {
+                  "type": "origins:meat"
+                }
+              ],
+              "inverted": true
+            },
+            {
+              "type": "origins:food"
+            },
+            {
+              "type": "origins:ingredient",
+              "ingredient": {
+                "tag": "origins:ignore_diet"
+              },
+              "inverted": true
+            }
+          ]
+        }
+      },
+    "veg": {
+        "type": "origins:prevent_item_use",
+        "item_condition": {
+          "type": "origins:and",
+          "conditions": [
+            {
+              "type": "origins:or",
+              "conditions": [
+                {
+                  "type": "origins:ingredient",
+                  "ingredient": {
+                    "tag": "origins:meat"
+                  }
+                },
+                {
+                  "type": "origins:meat"
+                }
+              ]
+            },
+            {
+              "type": "origins:food"
+            },
+            {
+              "type": "origins:ingredient",
+              "ingredient": {
+                "tag": "origins:ignore_diet"
+              },
+              "inverted": true
+            }
+          ]
+        }
+    },
+    "name": "Cellulose",
+    "description": "You heal double the amount, slowly gain shanks of hunger, and slowly gain saturation when underwater. You can only drink water bottles or potions as food."
+}

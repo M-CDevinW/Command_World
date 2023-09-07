@@ -1,0 +1,18 @@
+{
+    "hidden": true,
+	"name": "Weak Body,",
+	"description": "Your smaller size restricts you from wearing armor stronger than diamond.",
+    "type": "origins:restrict_armor",
+    "head": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:turtle_helmet"
+        }
+    },
+    "feet": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "consistency_plus:turtle_boots"
+        }
+    }
+}

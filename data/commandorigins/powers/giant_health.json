@@ -1,0 +1,10 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "value": 10,
+        "operation": "addition"
+    },
+	"name": "Longer Lasting",
+	"description": "Your extremely large size gives you far more max health."
+}

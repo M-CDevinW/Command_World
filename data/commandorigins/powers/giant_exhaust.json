@@ -1,0 +1,9 @@
+{
+    "type": "origins:modify_exhaustion",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 0.25
+    },
+    "name": "Extra Exhaustion",
+    "description": "Due to your large body, you reqiure more food to keep moving."
+}

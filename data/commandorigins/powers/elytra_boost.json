@@ -1,0 +1,23 @@
+{
+    "type": "origins:active_self",
+    "cooldown": 100,
+    "hud_render": {
+      "sprite_location": "origins:textures/gui/resource_bar.png",
+      "bar_index": 4
+    },
+    "sound": "minecraft:entity.parrot.fly",
+    "entity_action": {
+        "type": "origins:add_velocity",
+        "z": 1.33,
+        "space": "local",
+        "set": true
+    },
+    "key": {
+        "key": "key.origins.primary_active"
+    },
+    "condition": {
+        "type": "origins:fall_flying"
+    },
+    "name": "Wing Dash",
+    "description": "You can press the active ability key to thrust your wings and give you a directional boost in the direction you're facing."
+}

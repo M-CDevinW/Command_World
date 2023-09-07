@@ -1,0 +1,130 @@
+{
+    "type": "origins:multiple",
+    "ponder": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.movement_speed",
+            "value": 0.33,
+            "operation": "multiply_base"
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "offhand",
+            "item_condition": {
+                "type": "origins:nbt",
+                "nbt": "{instrument: \"minecraft:ponder_goat_horn\"}"
+            }
+        } 
+    },
+    "sing": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "value": 8,
+            "operation": "addition"
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "offhand",
+            "item_condition": {
+                "type": "origins:nbt",
+                "nbt": "{instrument: \"minecraft:sing_goat_horn\"}"
+            }
+        } 
+    },
+    "seek": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.attack_speed",
+            "value": 1.25,
+            "operation": "multiply_base"
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "offhand",
+            "item_condition": {
+                "type": "origins:nbt",
+                "nbt": "{instrument: \"minecraft:seek_goat_horn\"}"
+            }
+        } 
+    },
+    "feel": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.knockback_resistance",
+            "value": 0.25,
+            "operation": "addition"
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "offhand",
+            "item_condition": {
+                "type": "origins:nbt",
+                "nbt": "{instrument: \"minecraft:feel_goat_horn\"}"
+            }
+        } 
+    },
+    "admire": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 0.15,
+            "operation": "multiply_base"
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "offhand",
+            "item_condition": {
+                "type": "origins:nbt",
+                "nbt": "{instrument: \"minecraft:admire_goat_horn\"}"
+            }
+        } 
+    },
+    "call": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.armor",
+            "value": 4,
+            "operation": "addition"
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "offhand",
+            "item_condition": {
+                "type": "origins:nbt",
+                "nbt": "{instrument: \"minecraft:call_goat_horn\"}"
+            }
+        } 
+    },
+    "yearn": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.armor_toughness",
+            "value": 0.5,
+            "operation": "multiply_base"
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "offhand",
+            "item_condition": {
+                "type": "origins:nbt",
+                "nbt": "{instrument: \"minecraft:yearn_goat_horn\"}"
+            }
+        } 
+    },
+    "dream": {
+        "type": "origins:modify_exhaustion",
+        "modifier": {
+            "operation": "multiply_base",
+            "value": -0.25
+        },
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "offhand",
+            "item_condition": {
+                "type": "origins:nbt",
+                "nbt": "{instrument: \"minecraft:dream_goat_horn\"}"
+            }
+        } 
+    }
+}

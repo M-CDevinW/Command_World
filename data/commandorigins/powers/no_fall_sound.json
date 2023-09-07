@@ -1,0 +1,7 @@
+{
+    "type": "origins:prevent_game_event",
+    "event": "minecraft:hit_ground",
+    "name": "Nimble Feet",
+    "description": "You don't produce particles when running.",
+    "hidden": true
+}

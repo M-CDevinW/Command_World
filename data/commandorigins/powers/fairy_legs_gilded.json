@@ -1,0 +1,12 @@
+{
+    "hidden": true,
+	"name": "Weak Body,",
+	"description": "Your smaller size restricts you from wearing armor stronger than diamond.",
+    "type": "origins:restrict_armor",
+    "legs": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "additionaladditions:gilded_netherite_leggings"
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "type": "origins:invulnerability",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "freeze"
+    },
+    "name": "Thick Fur",
+    "description": "Your fuzziness provides complete immunity to freezing damage."
+}

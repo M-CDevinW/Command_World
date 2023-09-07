@@ -1,0 +1,7 @@
+{
+    "type": "origins:modify_player_spawn",
+    "dimension": "minecraft:overworld",
+    "biome": "minecraft:lush_caves",
+    "name": "Cavern Lurker",
+    "description": "You naturally spawn in lush caves."
+}

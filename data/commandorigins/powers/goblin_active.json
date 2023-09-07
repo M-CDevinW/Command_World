@@ -1,0 +1,40 @@
+{
+    "type": "origins:multiple",
+    "time": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "commandorigins:goblin_resource",
+            "change": -1
+        },
+        "interval": 20
+    },
+    "active": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "commandorigins:goblin_resource",
+            "change": 15
+        },
+        "cooldown": 1200,
+        "hud_render": {
+            "should_render": true,
+          "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+          "bar_index": 10
+        },
+        "key": {
+          "key": "key.origins.primary_active",
+          "continuous": true
+        }
+    },
+    "invis": {
+        "type": "origins:invisibility",
+        "render_armor": false,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "commandorigins:goblin_resource",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    }
+}

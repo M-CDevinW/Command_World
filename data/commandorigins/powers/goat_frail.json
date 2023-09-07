@@ -1,0 +1,10 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "value": -4,
+        "operation": "addition"
+    },
+	"name": "Soft",
+	"description": "Your soft body means you have slightly less health than an average human."
+}

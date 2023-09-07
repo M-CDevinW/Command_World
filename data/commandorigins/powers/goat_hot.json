@@ -1,0 +1,17 @@
+{
+    "type": "origins:modify_damage_taken",
+    "modifier": {
+        "operation": "multiply_total",
+        "value": 0.15
+    },
+    "condition": {
+        "type": "origins:biome",
+        "condition": {
+            "type": "origins:temperature",
+            "comparison": ">=",
+            "compare_to": 2
+        }
+    },
+    "name": "Fluffiness",
+    "description": "Your fluffy fur causes you to overheat in warm biomes, taking additional damage."
+}

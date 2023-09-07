@@ -1,0 +1,10 @@
+{
+    "type": "origins:modify_status_effect_amplifier",
+    "status_effect": "minecraft:hero_of_the_village",
+    "modifier": {
+        "operation": "add_base_early",
+        "value": 2
+    },
+    "name": "True Hero",
+    "description": "Hero of the Village is always 2 levels higher."
+}

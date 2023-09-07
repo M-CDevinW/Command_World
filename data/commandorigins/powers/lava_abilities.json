@@ -1,0 +1,27 @@
+{
+    "type": "origins:multiple",
+    "enable_swimming_in_lava":
+    {
+        "type": "origins:swimming",
+        "condition":
+        {
+            "type": "origins:fluid_height",
+            "fluid": "minecraft:lava",
+            "comparison": ">",
+            "compare_to": 0.0,
+            "inverted": false
+        }
+    },
+    "fire_damage_immunity":
+    {
+        "type": "origins:fire_immunity"
+    },
+    "lava_vision":
+    {
+        "type": "origins:lava_vision",
+        "s": 0,
+        "v": 15
+    },
+    "name": "Fire Born",
+    "description": "You can swim in lava as if it were water, have better sight in it, and are completely immune to its damage."
+}

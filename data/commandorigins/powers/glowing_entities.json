@@ -1,0 +1,17 @@
+{
+    "type": "origins:entity_glow",
+    "condition": {
+        "type": "origins:power_active",
+        "power": "commandorigins:glow_toggle",
+    "bientity_condition": {
+        "type": "origins:distance",
+        "comparison": "<=",
+        "compare_to": 48
+    }
+    },
+    "use_teams": false,
+    "red": 1,
+    "green": 1,
+    "blue": 1,
+    "hidden": true
+}

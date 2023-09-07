@@ -1,0 +1,30 @@
+{
+	"name": "Golden Priorities",
+	"description": "You believe netherite ingots are a waste of gold, thus you resent it.",
+    "type": "origins:restrict_armor",
+    "head": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "additionaladditions:gilded_netherite_helmet"
+        }
+    },
+    "chest": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "additionaladditions:gilded_netherite_chestplate"
+        }
+    },
+    "legs": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "additionaladditions:gilded_netherite_leggings"
+        }
+    },
+    "feet": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "additionaladditions:gilded_netherite_boots"
+        }
+    },
+    "hidden": true
+}

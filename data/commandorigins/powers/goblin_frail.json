@@ -1,0 +1,10 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "value": -6,
+        "operation": "addition"
+    },
+	"name": "Frail",
+	"description": "Your small body means you have slightly less health than an average human."
+}

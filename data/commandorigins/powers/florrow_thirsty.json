@@ -1,0 +1,46 @@
+{
+    "type": "origins:multiple",
+    "time": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "commandorigins:florrow_resource",
+            "change": -1
+        },
+        "interval": 20
+    },
+    "water": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "commandorigins:florrow_resource",
+            "change": 240,
+            "operation": "set"
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:submerged_in",
+            "fluid": "minecraft:water"
+        }
+    },
+    "damage": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:damage",
+            "amount": 1,
+            "source": {
+                "name": "dryout",
+                "bypasses_armor": true
+            }
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "commandorigins:florrow_resource",
+            "comparison": "==",
+            "compare_to": 0
+        }
+    },
+    "name": "Hydration",
+    "description": "If you do not enter water for 4 straight minutes, you begin to take damage from dehydration."
+}

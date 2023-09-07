@@ -1,0 +1,16 @@
+{
+    "type": "origins:modify_velocity",
+    "modifier": {
+      "value": 0.5,
+      "operation": "multiply_total"
+    },
+    "axes": [
+      "x",
+      "z"
+    ],
+    "condition": {
+        "type": "origins:fall_flying"
+    },
+    "name": "Large Wingspan",
+    "description": "The large size of your wings gives you increased speed while flying."
+}

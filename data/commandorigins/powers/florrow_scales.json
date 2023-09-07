@@ -1,0 +1,22 @@
+{
+    "type": "origins:multiple",
+    "defense": {
+        "type": "origins:attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.armor",
+            "value": 2,
+            "operation": "addition"
+        }
+    },
+    "health": {
+        "type": "origins:attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "value": 2,
+            "operation": "addition"
+        }
+    },
+
+	"name": "Scales",
+	"description": "Microscales that surround your stalk grant 2 defense and 2 extra health points."
+}

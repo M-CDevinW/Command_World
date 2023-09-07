@@ -1,0 +1,20 @@
+{
+    "name": "Mineral Blacksmithing",
+    "description": "Your experience with ores gives you more knockback resistance when wearing armor made from them.",
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.knockback_resistance",
+        "operation": "addition",
+        "value": 0.075
+    },
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "head",
+        "item_condition": {
+            "type": "origins:armor_value",
+            "comparison": "==",
+            "compare_to": 3
+        }
+    },
+    "hidden": true
+}
